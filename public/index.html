@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack TS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1 class="title">Blackjack JS 🎰</h1>
+        </div>
+
+        <div class="board">
+            <div class="board-score pd-15">
+                <h1>Dealer</h1>
+                <h1>10</h1>
+            </div>
+            <div class="board-cards pd-15">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card holder"></div>
+                <div class="card holder"></div>
+                <div class="card holder"></div>
+            </div>
+        </div>
+
+        <div class="board">
+            <div class="board-score pd-15">
+                <h1>Player</h1>
+                <h1>13</h1>
+            </div>
+            <div class="board-cards pd-15">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card holder"></div>
+                <div class="card holder"></div>
+                <div class="card holder"></div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="play" class="btn-primary mr-2">Hit</button>
+            <button class="btn-secondary mr-2">Stand</button>
+            <button class="btn-danger mr-2">New game</button>
+        </div>
+
+    </div>
+
+    <script src="../src/main.ts"></script>
+</body>
+
+</html>
